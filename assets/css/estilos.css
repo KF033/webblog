@@ -52,13 +52,6 @@ ul li {
     display: inline-block;
 }
 
-article.contacto address ul li {
-    display: block;
-}
-article.contacto address ul li {
-    text-decoration: none;
-    color: greenyellow;
-}
 .w3-wide {
     letter-spacing: 10px;
 }
