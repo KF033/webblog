@@ -3,15 +3,18 @@
     --color-secundario: #c28a1a;
     --color-terciario: #c21a1a;
     --color-texto: #89a236;
+
+    --fontfamily-titles: "Roboto", serif;
+    --fontfamily-textos: "Kablammo", sans-serif;
 }
-body,
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato", sans-serif;
+    font-family: var(--fontfamily-titles);
 }
 
 h1,
@@ -32,7 +35,8 @@ li a {
 }
 
 body,
-html {
+html,
+article {
     height: 100%;
     /* color: #777; */
     line-height: 1.8;
@@ -41,8 +45,11 @@ html {
 html,
 p,
 li,
-span {
-    color: var(--color-texto);
+span,
+figcaption,
+caption,
+legend {
+    font-family: var(--fontfamily-textos);
 }
 ul {
     list-style: none;
