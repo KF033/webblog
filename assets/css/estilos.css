@@ -1,3 +1,9 @@
+:root {
+    --color-primario: #107474;
+    --color-secundario: #c28a1a;
+    --color-terciario: #c21a1a;
+    --color-texto: #89a236;
+}
 body,
 h1,
 h2,
@@ -8,13 +14,36 @@ h6 {
     font-family: "Lato", sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    color: var(--color-primario);
+}
+
+h4,
+h5,
+h6 {
+    color: var(--color-secundario);
+}
+
+p a,
+li a {
+    color: var(--color-terciario);
+}
+
 body,
 html {
     height: 100%;
-    color: #777;
+    /* color: #777; */
     line-height: 1.8;
 }
 
+html,
+p,
+li,
+span {
+    color: var(--color-texto);
+}
 ul {
     list-style: none;
     margin: 0;
