@@ -6,8 +6,46 @@
 
     --fontfamily-titles: "Roboto", serif;
     --fontfamily-textos: "Kablammo", sans-serif;
+
+    --kf-url-tarea-1: url("https://api.openverse.org/v1/images/ab1fe30a-aa06-4509-90e1-9a2d0a9ff152/thumb/");
+    --kf-url-tarea-2: url("https://www.w3schools.com/w3images/p2.jpg");
+    --kf-url-tarea-3: url("https://www.w3schools.com/w3images/p3.jpg");
+    --kf-url-tarea-4: url(assets/img/pixabay/cocoparisienne/la-bruja-de-la-casa-de-la-bruja_360.webp);
+    --kf-url-tarea-5: url("https://www.w3schools.com/w3images/p5.jpg");
+    --kf-url-tarea-6: url("https://www.w3schools.com/w3images/p6.jpg");
+    --kf-url-tarea-7: url("https://www.w3schools.com/w3images/p7.jpg");
+    --kf-url-tarea-8: url("https://www.w3schools.com/w3images/p8.jpg");
 }
 
+.kf-bg-tarea-1 {
+    background-image: var(--bg-tarea-1);
+    }
+
+    .kf-bg-tarea-2 {
+    background-image: var(--bg-tarea-2);
+    }
+.kf-bg-tarea-3 {
+    background-image: var(--bg-tarea-3);
+    }
+
+    .kf-bg-tarea-4 {
+    background-image: var(--bg-tarea-4);
+    }
+
+    .kf-bg-tarea-5 {
+    background-image: var(--bg-tarea-5);
+    }
+
+    .kf-bg-tarea-6 {
+    background-image: var(--bg-tarea-6);
+    }
+
+    .kf-bg-tarea-7 {
+    background-image: var(--bg-tarea-7);
+    }
+    .kf-bg-tarea-8 {
+    background-image: var(--bg-tarea-8);
+    }
 h1,
 h2,
 h3,
@@ -58,9 +96,7 @@ ul {
 }
 
 /* Parallax images */
-.bgimg-1,
-.bgimg-2,
-.bgimg-3 {
+.kf-bgimg {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,10 +115,42 @@ ul {
 
 .bgimg-3 {
     /* background-image: url('https://cdn.pixabay.com/photo/2015/01/25/21/02/phone-612061_1280.jpg'); */
-    background-image: url("https://cdn.pixabay.com/photo/2017/06/19/05/36/jessica45-contact-us-2418235_1280.jpg");
+    background-image: url("https://www.w3schools.com/w3images/p3.jpg");
     min-height: 400px;
 }
 
+.kf-tarea {
+    width: 100%;
+    aspect-ratio: 4/3;
+    height: 100%;
+    margin: 0;
+}
+
+.kf-tarea-1 {
+    background-image: var(--kf-url-tarea-1);
+}
+
+
+.kf-bg-tarea-2 {
+    background-image: var(--kf-url-tarea-2);
+   
+}
+
+
+.kf-bg-tarea-3 {
+    background-image: var(--kf-url-tarea-3);
+
+    .kf-bg-tarea-4 {
+    background-image: var(--kf-url-tarea-4);
+
+    .kf-bg-tarea-5 {
+    background-image: var(--kf-url-tarea-5);
+    .kf-bg-tarea-6 {
+    background-image: var(--kf-url-tarea-6);
+    .kf-bg-tarea-7 {
+    background-image: var(--kf-url-tarea-7);
+    .kf-bg-tarea-8 {
+    background-image: var(--kf-url-tarea-8);
 ol li,
 ul li {
     display: inline-block;
@@ -122,17 +190,17 @@ ul li {
 }
 
 .kf-parallax-1 {
-    background-image: url(https://www.w3schools.com/w3images/parallax1.jpg);
+    background-image: url("https://www.w3schools.com/w3images/parallax1.jpg2");
     min-height: 100%;
     background-color: #89a236;
 }
-.kf-parallaz-2 {
-    background-image: url(https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg);
+.kf-parallax-2 {
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg");
     min-height: 400px;
     background-color: #89a236;
 }
 .kf-parallax-3 {
-    background-image: url(https://cdn.pixabay.com/photo/2017/06/19/05/36/jessica45-contact-us-2418235_1280.jpg);
+    background-image: url("https://www.w3schools.com/w3images/p3.jpg");
     min-height: 400px;
     background-color: #89a236;
 }
